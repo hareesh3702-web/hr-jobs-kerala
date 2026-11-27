@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Jobs Kerala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HR Jobs Kerala</h1>
+    <p>HR, recruitment, payroll and talent-acquisition jobs across Kerala</p>
+  </header>
+
+  <main>
+    <section class="filters">
+      <input id="search" type="text" placeholder="Search job title, company or keyword" />
+
+      <select id="location">
+        <option value="">All locations</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Kozhikode">Kozhikode</option>
+        <option value="Thrissur">Thrissur</option>
+        <option value="Palakkad">Palakkad</option>
+        <option value="Shoranur">Shoranur</option>
+        <option value="Cherpulassery">Cherpulassery</option>
+        <option value="Ottapalam">Ottapalam</option>
+      </select>
+
+      <select id="mode">
+        <option value="">All work modes</option>
+        <option value="Remote">Remote</option>
+        <option value="Hybrid">Hybrid</option>
+        <option value="On-site">On-site</option>
+      </select>
+
+      <select id="source">
+        <option value="">All sources</option>
+      </select>
+    </section>
+
+    <section id="quick-links">
+      <h2>Search all major job sites</h2>
+      <div id="search-links"></div>
+    </section>
+
+    <section>
+      <h2>Job listings</h2>
+      <div id="jobs"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      This website links to original job sources. Job details and applications
+      remain on the respective employer or job-platform website.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
