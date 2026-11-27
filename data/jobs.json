@@ -1,0 +1,20 @@
+[
+  {
+    "title": "HR Executive",
+    "company": "Example Company",
+    "location": "Palakkad, Kerala",
+    "work_mode": "On-site",
+    "source": "Company Website",
+    "url": "https://example.com/careers",
+    "posted_date": "2026-11-27"
+  },
+  {
+    "title": "HR Recruiter",
+    "company": "Example IT Services",
+    "location": "Remote, Kerala",
+    "work_mode": "Remote",
+    "source": "Company Website",
+    "url": "https://example.com/careers",
+    "posted_date": "2026-11-27"
+  }
+]
